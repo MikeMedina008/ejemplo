@@ -17,8 +17,8 @@ def division(a, b):
         return "Error: División por ceros"
 
 # Solicitar al usuario que ingrese dos números
-num1 = float(input("Ingrese el primer número activo: "))
-num2 = float(input("Ingrese el segundo número activo: "))
+num1 = float(input("Ingrese el primer número : "))
+num2 = float(input("Ingrese el segundo número : "))
 
 # Menú de operaciones
 print("Seleccione la operación:")
@@ -28,7 +28,7 @@ print("3. Multiplicación")
 print("4. División")
 
 # Obtener la opción del usuario
-opcion = input("Ingrese el número de la operación deseada (1/2/3/4): ")
+opcion = input("Ingrese el número que desee operar (1/2/3/4): ")
 
 # Realizar la operación seleccionada
 if opcion == '1':
