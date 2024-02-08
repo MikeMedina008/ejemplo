@@ -14,7 +14,7 @@ def division(a, b):
     if b != 0:
         return a / b
     else:
-        return "Error: División por cero"
+        return "Error: División por ceros"
 
 # Solicitar al usuario que ingrese dos números
 num1 = float(input("Ingrese el primer número: "))
